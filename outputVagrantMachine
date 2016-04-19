@@ -1,0 +1,16 @@
+[vagrant@centos-7 ~]$ service httpd status
+Redirecting to /bin/systemctl status  httpd.service
+httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled)
+   Active: active (running) since Tue 2016-04-19 19:52:31 UTC; 36s ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 3242 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           ├─3242 /usr/sbin/httpd -DFOREGROUND
+           ├─3243 /usr/sbin/httpd -DFOREGROUND
+           ├─3244 /usr/sbin/httpd -DFOREGROUND
+           ├─3245 /usr/sbin/httpd -DFOREGROUND
+           ├─3246 /usr/sbin/httpd -DFOREGROUND
+           └─3247 /usr/sbin/httpd -DFOREGROUND
