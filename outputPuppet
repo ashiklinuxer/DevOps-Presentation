@@ -1,0 +1,6 @@
+==> default: Running provisioner: puppet...
+==> default: Running Puppet with default.pp...
+==> default: Notice: Compiled catalog for centos-7.x-amd64.vagrantup.com in environment production in 0.74 seconds
+==> default: Notice: /Stage[main]/Main/Package[httpd]/ensure: created
+==> default: Notice: /Stage[main]/Main/Service[httpd]/ensure: ensure changed 'stopped' to 'running'
+==> default: Notice: Finished catalog run in 25.57 seconds
